@@ -24,6 +24,7 @@ function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textarea.value);
     if (textoDesencriptado) {
         mensaje.value = textoDesencriptado;
+        textarea.value = "";
     }
 }
 
