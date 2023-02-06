@@ -31,7 +31,7 @@ function btnDesencriptar() {
 function cpy() {
     const btncopiar = mensaje.value;
     navigator.clipboard.writeText(btncopiar);
-    copy.innerHTML = "copied";
+    copy.innerHTML = "copiado";
 }
 
 function encriptar(stringEncriptado) {
